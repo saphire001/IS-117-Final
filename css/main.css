@@ -1,0 +1,77 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+/* CSS for the cards */
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(225px, 1fr));
+    gap: 20px;
+    font-family: sans-serif; /* since its default for now */
+}
+
+.card {
+    box-shadow: 0 0 3px, black;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #86b7fe;
+}
+
+.card-content p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #20c997;
+    font-size: 0.8em;
+    border-bottom: 2px solid #0a58ca;
+}
+
+.card-info a {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+/* CSS for the containers */
+.cont {
+    border: 3px solid skyblue;
+    padding: 20px 40px 40px;
+    max-width: 640px;
+}
+
+.cont-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin: 20px 30px 0 0;
+}
+
+.cont-txt {
+    display: inline-block;
+    width: 46%;
+}
+/* CSS for the definitions */
+#def {
+    padding-bottom: 2em;
+}
