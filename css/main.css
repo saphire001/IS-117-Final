@@ -74,7 +74,10 @@
     display: inline-block;
     width: 46%;
 }
-img { max-width: 100% }
+img {
+    width: 100%;
+    height: auto;
+}
 /* CSS for the definitions */
 #def {
     padding-bottom: 2em;
