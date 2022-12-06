@@ -73,6 +73,7 @@
     display: inline-block;
     width: 46%;
 }
+img { max-width: 100% }
 /* CSS for the definitions */
 #def {
     padding-bottom: 2em;
